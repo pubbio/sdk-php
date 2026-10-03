@@ -1,0 +1,10 @@
+{
+  "name": "pubb/sdk",
+  "description": "Pubb server SDK for PHP",
+  "type": "library",
+  "license": "MIT",
+  "require": {"php": ">=8.1", "ext-json": "*", "ext-hash": "*"},
+  "autoload": {"psr-4": {"Pubb\\": "src/"}},
+  "scripts": {"test": "php tests/run.php"},
+  "support": {"source": "https://github.com/pubbio/sdk-php"}
+}
